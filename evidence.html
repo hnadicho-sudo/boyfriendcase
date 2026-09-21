@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111923">
+  <title>BF COURTROOM | Evidence Room</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="evidence">
+  <div class="page-wash" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">⚖</span><span>BF <b>COURTROOM</b></span></a>
+    <div class="case-stamp">CASE NO. 2026-BF-001 <span class="stamp-dot"></span> EVIDENCE LOG</div>
+  </header>
+
+  <main class="evidence-page page-enter">
+    <section class="page-title-row">
+      <div><p class="eyebrow"><span class="eyebrow-rule"></span> Exhibit archive / file access granted</p><h1>🔍 EVIDENCE ROOM</h1><p class="title-sub">THE COURT HAS COLLECTED THE FOLLOWING EVIDENCE.</p></div>
+      <div class="evidence-counter"><strong id="evidence-count">0/5</strong><span>EXHIBITS<br>REVIEWED</span></div>
+    </section>
+
+    <div class="notice-bar"><span class="notice-icon">!</span><span>Click each sealed exhibit to inspect the evidence. The court is watching.</span><span class="notice-line"></span></div>
+
+    <section class="evidence-board" aria-label="Evidence exhibits">
+      <article class="evidence-card" tabindex="0" data-evidence="1">
+        <div class="card-top"><span>EVIDENCE #001</span><span class="pin"></span></div>
+        <div class="placeholder-photo photo-one"><span>SUBJECT<br>REDACTED</span><b>♡</b></div>
+        <div class="card-content"><h2>Suspiciously Cute</h2><p>Subject displays an alarming amount of charm for someone with this many charges.</p><div class="reveal-note"><b>COURT NOTE</b> ကိုကို့အပြုံးတေ , ချစ်ဖို့ကောင်းတယ့်အမူအရာကြောင့် ခနခနအရည်ပျော်နေရလို့ this may take  as a repeat offense.</div></div>
+        <button class="inspect-button" type="button">OPEN EXHIBIT <span>+</span></button>
+      </article>
+      <article class="evidence-card" tabindex="0" data-evidence="2">
+        <div class="card-top"><span>EVIDENCE #002</span><span class="pin"></span></div>
+        <div class="placeholder-photo photo-two"><span>MESSAGE<br>ARCHIVE</span><b>✉</b></div>
+        <div class="card-content"><h2>Exhibit: The Messages</h2><p>Evidence suggests this person somehow became my favorite notification.</p><div class="reveal-note"><b>COURT NOTE</b> ကိုကို့ဆီကကြားရတယ့် “ကိုကို့ကိုပြောနော် တခုခုဆိုကိုကိုရှိတယ်နော်” ဆိုတယ့် message လေးတေက တကယ် crime မြောက်တယ်သိလား အ့ကြောင့် နောက်တမှု</div></div>
+        <button class="inspect-button" type="button">OPEN EXHIBIT <span>+</span></button>
+      </article>
+      <article class="evidence-card" tabindex="0" data-evidence="3">
+        <div class="card-top"><span>EVIDENCE #003</span><span class="pin"></span></div>
+        <div class="placeholder-photo photo-three"><span>WITNESS<br>STATEMENT</span><b>!</b></div>
+        <div class="card-content"><h2>Repeated Offense</h2><p>Defendant continues to make girlfriend smile for absolutely no reason.</p><div class="reveal-note"><b>COURT NOTE</b> Witness reports the laughter is involuntary and ongoing. ကိုကိုနဲ့ဆိုအမြဲပြူံးနေရလို့ ပါးတေညောင်းကုန်လို့ နောက်တမှုထပ်ဖွင့်ပါတယ်။</div></div>
+        <button class="inspect-button" type="button">OPEN EXHIBIT <span>+</span></button>
+      </article>
+      <article class="evidence-card" tabindex="0" data-evidence="4">
+        <div class="card-top"><span>EVIDENCE #004</span><span class="pin"></span></div>
+        <div class="placeholder-photo photo-four"><span>ARGUMENT<br>TRANSCRIPT</span><b>?</b></div>
+        <div class="card-content"><h2>Somehow Always Right</h2><p>Suspicious confidence observed during debates about extremely minor topics.</p><div class="reveal-note"><b>COURT NOTE</b> အမြဲအနိုင်ဘဲပေးနေလို့ တခါလောက်လေးတောင် ရှုံးခွင့်မပေးလို့ ထပ်တိုးတမှု။</div></div>
+        <button class="inspect-button" type="button">OPEN EXHIBIT <span>+</span></button>
+      </article>
+      <article class="evidence-card" tabindex="0" data-evidence="5">
+        <div class="card-top"><span>EVIDENCE #005</span><span class="pin"></span></div>
+        <div class="placeholder-photo photo-five"><span>HEART<br>EXHIBIT</span><b>♥</b></div>
+        <div class="card-content"><h2>Favorite Person</h2><p>Final evidence confirms the prosecution is wildly biased and not even sorry.</p><div class="reveal-note"><b>COURT NOTE</b> ကိုကိုကဒီးဘဝတွက်နောက်ဆုံးသူအဖြစ်သေချာသွားအောင်လုပ်လိုက်တာမို့ The heart has been compromised. There is no going back.</div></div>
+        <button class="inspect-button" type="button">OPEN EXHIBIT <span>+</span></button>
+      </article>
+    </section>
+
+    <section class="evidence-action"><p id="evidence-status">Five exhibits remain sealed.</p><a id="verdict-link" class="primary-button page-link is-locked" href="verdict.html" aria-disabled="true">REVIEW ALL EVIDENCE <span>→</span></a></section>
+  </main>
+  <footer class="site-footer"><a href="index.html">← Return to case file</a><span>Evidence is circumstantial. Feelings are not.</span></footer>
+</body>
+</html>
